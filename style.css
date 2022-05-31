@@ -5,7 +5,7 @@
 }
 
 header {
-    background-image: url('https://www.monsterenergy.com/media/uploads_image/2020/08/27/900/670/a06a1db24df2ac31e12a4e2784e9d6b3.jpg');
+    background-image: url('https://upload.wikimedia.org/wikipedia/commons/thumb/d/dd/Torunskie_Anioly.JPG/1200px-Torunskie_Anioly.JPG');
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -14,12 +14,12 @@ header {
 }
 
 h1 {
-    background-color: #68656536;
     color: rgb(255, 255, 255);
     height: 80vh;
     text-align: center;
-    line-height: 40vh;
-    font-size: 44px;
+    line-height: 60vh;
+    font-size: 62px;
+    text-shadow: 1px 1px 2px rgb(0, 0, 0);
 }
  
 footer {
@@ -40,80 +40,55 @@ main {
  
 h3 {
     text-align: center;
-    padding: 20px;
+    padding: 10px;
 }
  
 p {
-    padding: 20px;
+    padding: 10px;
     line-height: 1.5;
     text-align: justify;
 }
 
+.map{
+    display: flex;
+    text-align: center;
+    flex-direction: column;
+    align-items: center;
+}
+
 .img1 {
-    background-image: url('https://wlkp24.info/wp-content/uploads/2022/04/5D2_6314-796x531.jpg');
+    background-image: url('https://www.monsterenergy.com/media/uploads_image/2020/08/27/900/670/a06a1db24df2ac31e12a4e2784e9d6b3.jpg');
     background-size: cover;
-    background-position: center;
+    background-position: 10% center;
     background-repeat: no-repeat;
     width: 100%;
-    height: 400px;
+    height: 500px;
 }
 .img2 {
-    background-image: url('https://gfx.sport.radiozet.pl/var/radiozetsport2/storage/images/inne-sporty/betard-sparta-wroclaw-druzynowym-mistrzem-polski-na-zuzlu/6109719-1-pol-PL/Betard-Sparta-Wroclaw-druzynowym-mistrzem-Polski-na-zuzlu_article.jpg');
+    background-image: url('https://ocdn.eu/pulscms-transforms/1/ojXk9kqTURBXy84MWM2ZGI3OTNlMjNiNmZlYmVjOTgzZmEzZGM1YzhjNy5qcGVnk5UDAM0CNc0STc0KTJMJpjAwZWRkZAaTBc0EsM0CdoGhMAE/przedpelski-dudek-kildemand.jpg');
     background-size: cover;
-    background-position: center;
+    background-position: 20% center;
     background-repeat: no-repeat;
     width: 100%;
-    height: 400px;
+    height: 500px;
 
 }
 
 .img3 {
-    background-image: url('https://ocdn.eu/pulscms-transforms/1/XWck9kpTURBXy82NzBjNGJlMDExZGZlNGFiNTlmM2ExZTFlN2Q4MmU4Yy5qcGeTlQMAzQFRzRF8zQnWkwmmZDAwNjBiBpMFzQSwzQJ2gaEwAQ/fogo-unia-leszno-betard-sparta-wroclaw-janusz-kolodziej-tai-woffinden-maciej-janowski-emil-sajfutdinow.jpg');
+    background-image: url('https://sportowy-torun.pl/wp-content/uploads/2021/09/IMG_0424-1-1024x641.jpg');
     background-size: cover;
-    background-position: center;
+    background-position: 50% center;
     background-repeat: no-repeat;
-    width: 100%;
-    height: 400px;
+    width:100%;
+    height: 500px;
 }
 .img4 {
-    background-image: url('https://upload.wikimedia.org/wikipedia/commons/d/dd/Torunskie_Anioly.JPG');
+    background-image: url('https://www.torun.pl/sites/default/files/72374145_3339558409402492_8173620117758803968_o_0.jpg');
     background-size: cover;
-    background-position: center;
+    background-position: 50% center;
     background-repeat: no-repeat;
     width: 100%;
-    height: 400px;
-}
-.img5 {
-    background-image: url('https://ocdn.eu/pulscms-transforms/1/0plk9kpTURBXy80YWY1OTRhMDY0OTFjODI2N2JlZWE5M2JhZjE4MzRjOC5qcGeTlQMAXc0LuM0Gl5MFzQMUzQG8kwmmYTQzMTRmBoGhMAE/stal-gorzow-bartosz-zmarzlik-jack-holder.jpg');
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
-    width: 100%;
-    height: 400px;
-}
-.img6 {
-    background-image: url('https://ocdn.eu/pulscms-transforms/1/YUqk9kpTURBXy82YzUwNzgyZTY2ZTU5MmJkNDE0ZDIxZmUxMjU4Mzc0YS5qcGeTlQMAzQE0zQu-zQackwXNAxTNAbyTCaZjZWJhNGIGgaEwAQ/motor-lublin.jpg');
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
-    width: 100%;
-    height: 400px;
-}
-.img7 {
-    background-image: url('https://czestochowskie24.pl/wp-content/uploads/2021/08/wlokniarz-9.08.jpg');
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
-    width: 100%;
-    height: 400px;
-}
-.img8  {
-    background-image: url('https://cdn.speedwayekstraliga.pl/2021/11/PGEE_31.jpg');
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
-    width: 100%;
-    height: 400px;
+    height: 500px;
 }
 
 @media (min-width: 768px) { 
@@ -121,7 +96,11 @@ p {
         flex-direction: row;
         flex-wrap: wrap;
     }
-    .team {
+    .riders {
         width: 50%;
+    }
+    .map {
+        text-align: center;
+        align-items: center;
     }
  }
